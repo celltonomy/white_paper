@@ -14,11 +14,11 @@ Celltonomy is a public decentralized network designed to make the following capa
 1. Grow biological systems
 2. Perform bioscience R&D
 3. Move bio-systems and derived biologics to prefered destinations
-4. Transact bio-systems, derived biologics, and 
+4. Transact bio-systems, derived biologics, and materials required for production
 
-Celltonomy is a combination of a cloud-biolab and an open source package repository. 
+Celltonomy is a combination of a cloud-biolab (however, decentralized) and an open source package repository. Packages in Celltonomy are protocols for fabricating and processing biological systems.
 
-Celltonomy is also a decentralized system designed to be owned and operated by a global community of Celltonomy users and supporters
+Celltonomy is designed to be owned and operated by a global community of Celltonomy users and supporters.
 
 # Core Elements
 
