@@ -15,11 +15,11 @@ Project Code: https://github.com/celltonomy
 
 [Component Networks](#component-networks)
 
+[Primary Network Systems](#primary-network-systems)
+
 [Reputation](#reputation)
 
 [Event Log](#event-log)
-
-[Primary Network Systems](#primary-network-systems)
 
 [What gets written to chain?](#what-gets-written-to-chain?)
 
@@ -54,8 +54,6 @@ Run bots, earn network rewards as well as revenue from fullfilling orders.
 2. Fulfillment Network
 3. Governance Network
 
-
-
 # Reputation
 
 A variety of metrics may be considered when computing Reputation. This is likely to be an area of significant iteration.
@@ -82,15 +80,29 @@ A variety of metrics may be considered when computing Reputation. This is likely
 
 ## Dispute Settlement System
 
-### Claim: "I received the wrong item”
+The Dispute Settlement System is likely to evolve significantly over time.
 
-#### Questions
+For TestNet development we can focus our current efforts on defining the scope of [potential resolution outcomes](#potential-resolution-outcomes), and identifying expected [dispute scenarios](#dispute-scenarios) and [research questions](#research-questions) for particularly complex dispute scenarios.
+
+### Potential Resolutions Outcomes
+
+1. Refund
+2. Redo the order
+3. Redo the order with different fulfillment provider(s)
+4. ‘Store credit’
+5. Litigation
+
+### Dispute Scenarios
+
+#### <u>"I received the wrong item”</u>
+
+##### Questions
 
 1. Is the shipping label correct?
 
-   * How do I verify this?
+   * How do is this verified?
 
-   * Is it addressed to me?
+   * Is package addressed to appropriate recipient?
 
      
 
@@ -99,53 +111,89 @@ A variety of metrics may be considered when computing Reputation. This is likely
    * How can we know?
    * Event Log: Have every bot / bot pool record which instructions they’re executing
 
-#### Potential Causes
+##### Potential Causes
 
 
 
-### Claim: “I did not receive the item”
+##### Resolution
 
-#### Questions
+
+
+#### <u>“I did not receive the item”</u>
+
+##### Questions
 
 * Was it delivered?
 
 * Was it stolen?
 
-#### Potential Causes
+##### Potential Causes
 
 
 
-### Claim: “The protocol wasn’t executed to spec”
-
-#### Questions
-
-#### Potential Causes
+##### Resolution
 
 
 
-#### Claim “The order is taking too long / longer than spec’ed”
+#### <u>“The protocol was not executed to spec”</u>
 
-Questions
+##### Questions
+
+* How is this validated?
+
+##### Potential Causes
+
+
+
+##### Resolution
+
+
+
+#### <u>“The order is taking too long / longer than spec’ed”</u>
+
+##### Questions
 
 * Is this due to delay with fabrication, shipping carrier, customs, or some other factor?
 
-Potential Causes
-ScenariosThe Protocol Was Executed To Spec
-The Protocol Was Not Executed To SpecClaimed by end-userHow is this validated?What if every step of every protocol was written to (side) chain?
-Research QuestionsWhat about items which have lifetime specs? E.g. you receive receipt up front, but the thing is supposed to last for x period of time, and then doesn't / lasts for x-y period of time.
-Resolution OutcomesRefundRedo the orderRedo the order with different fulfillment provider(s)‘Store credit’
+##### Potential Causes
 
 
 
-§1.3 Performance Audit System§1.4 Entity Registration System§1.5 Upgrade System![img](HxllOVWcfF_lod2LQ8OZj_O_2fGjFGhCnSXeckc6NND9f3nTnejMyjcj-OZb1VhUTvNdqfTUh8DOB1VXh9vsnZBBXLRd5yng4DYosah3r6_oWg9TPxPkVlMAT2TOnG8EMj9dJApu.png)
-![img](Cs75kq7cqTcnj-ITirdnGAekA4gUmUFAxk0xnZ4NPdT8sBeb4mEA_6wnYVmks2PWI3xFLLv1HjkMKp2hSGA4YVVP1F0Jqr16cQBG4lrY0Hf-c580F2Qxnvxld3s5_pfw9TcLZks4.png)
-![img](grWRGUlZ59rkoYCH5LKJo44ghGA6mrEaCrivE1kl9lXy0G9eqJavO5rdw2uRV3dWUy9p-LMBX8V8m9UCougLyDY_qAAM7qsGJMRnJEqTbNeqxMRJGbLWFfWbKyKrkou2-hwLC5JU.png)
-![img](3TM3Xthpct2eYRBM37vbJ1Go1DAjw0yAITbwd0QKIobKwBHwXzN1bLeecKZcX--2wfEJf-7Ef9TRW4ldtd_DhhAWdRatPaf51cE4dtWnCVwu5q4jxqQFYNaq9gfqhe-Jf7k_SBcF.png)
-![img](BID_aeF_WzF2Olcjx2QgPvouRhQ_XKMfzlR6QATATg6o6wNYTsCC-TA9iq_wDDF8nhztoyoNC0Wz3gjigx-5aWwVYUTSQBCNMh0qvIjeUGo5QkgfIA0G8u618hd_GAxDhUvrig-M.png)
+##### Resolution
 
-![img](8XWOxARPPCEkuaqmkp8fj35Wycy9TBoXpUjNDQ_vXTAKetUj0M5wpQXRsU1T1ks1h9_rVRMzxGirYXdT8KHc52f9Fw4LAfnzzv8aD0MlAw4BgCxp9Rrkv9DUlp48QVbhKHVJSrtP.png)
-§1.6 GovernanceHow Compound does it: https://medium.com/compound-finance/compound-governance-5531f524cf68
-§1.7 Treasury
+
+
+### Research Questions
+
+1. What about items which have ‘lifetime' specs? 
+
+   * E.g. You receive your item, but the thing is supposed to last for X period of time, and then doesn't / only lasts for X-Y period of time.
+
+     
+
+2. Should we support litigation, or should this be an off-chain issue?
+
+
+
+
+
+## Performance Audit System
+
+
+
+## Entity Registration System
+
+
+
+## Upgrade System
+
+
+
+## Governance
+
+How Compound does it: https://medium.com/compound-finance/compound-governance-5531f524cf68
+
+## Treasury
 
 # What gets written to chain?
 
