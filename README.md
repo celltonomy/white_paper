@@ -1,10 +1,8 @@
 <img align="center" height="200" src="./assets/logo/celltonomy_logo.png"/>
 
-# <!-- font: syncopate -->
+# <span style=“font-family: syncopate";>Celltonomy</span>
 
-# Celltonomy
 
-<!-- font: arial -->
 
 ## Your Decentralized Biofabrication Network
 
