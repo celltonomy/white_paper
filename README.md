@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 <img align="center" src="./assets/banner.png” />
 
+=======
+<img align="center" height="200" src="./assets/logo/celltonomy_logo.png"/>
+<span style="font-family: ‘syncopate’;">Celltonomy</span>
+>>>>>>> aa8643dd259c9be9bc102afa2cba4e1d3053d30c
 
 
 # <span style="font-family: ‘syncopate’;"> Celltonomy</span>
