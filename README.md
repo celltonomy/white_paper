@@ -1,28 +1,12 @@
-<img align="center" height="200" src="./assets/logo/celltonomy_logo.png"/>
-
-# <span style=“font-family: syncopate";>Celltonomy</span>
+<img align="center" src="./assets/banner.png” />
 
 
+
+# <span style="font-family: ‘syncopate’;"> Celltonomy</span>
 
 ## Your Decentralized Biofabrication Network
 
 ### Whitepaper V.1.0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ---
 
@@ -34,9 +18,17 @@
 
 ### Primary Systems
 
+### Reputation Metric
+
+### Asset Ownership
+
+### Tokenomics
+
+---
 
 
-What gets written to blockchain?Reputation MetricAsset OwnershipTokenomicsHow do you get coin?What do you spend coin on?When are new coins minted?Under what circumstances are coins burned?
+
+How do you get coin?What do you spend coin on?When are new coins minted?Under what circumstances are coins burned?
 NetworksValidator NetworkFabrication NetworkGovernance Network
 
 
