@@ -9,23 +9,23 @@ Project Code: https://github.com/celltonomy
 
 **Table of Contents**
 
-[Abstract][]
+[Abstract](# abstract)
 
-[Mining][]
+[Mining](#mining)
 
-[Component Networks][]
+[Component Networks](#component-networks)
 
-[Reputation][]
+[Reputation](#reputation)
 
-[Event Log][]
+[Event Log](#event-log)
 
-[Primary Network Systems][]
+[Primary Network Systems](#primary-network-systems)
 
-[What gets written to chain?][]
+[What gets written to chain?](#what-gets-written-to-chain?)
 
-[Tokenomics][]
+[Tokenomics](#tokenomics)
 
-[Red Team Exploits][]
+[Red Team Exploits](#red-team-exploits)
 
 # Abstract
 
