@@ -1,3 +1,5 @@
+![img](celltonomy_logo.png)
+
 # Celltonomy
 
 ## Your Decentralized Biofabrication Network
@@ -6,11 +8,11 @@
 
 
 
-<img src="./assets/logo/celltonomy_logo.png” />
 
 
 
- 
+
+
 
 
 
