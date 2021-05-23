@@ -1,6 +1,6 @@
 <img align="center" height="200" src="./assets/logo/celltonomy_logo.png"/>
 
-<span style=“font-family: syncopate;">Celltonomy</span>
+<span style="color:red">Celltonomy</span>
 
 
 
