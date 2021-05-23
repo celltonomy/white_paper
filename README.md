@@ -1,29 +1,42 @@
 <img align="center" src="./assets/banner.png"/>
 
-### Whitepaper V.1.0
+`Whitepaper V.1.0`
 
----
+<u>Table Of Contents</u>
 
-## Table of Contents
+[TOC]
 
-### Overview
+# Abstract
 
-### What gets written to chain?
+Celltonomy is 
 
-### Primary Systems
+Celltonomy is a combination of a cloud-biolab and an open source package repository. Celltonomy is also a decentralized system designed to be owned and operated by a global community of Celltonomy users and supporters
 
-### Reputation Metric
+# What gets written to chain?
 
-### Asset Ownership
+# Primary Systems
 
-### Tokenomics
+# Reputation Metric
 
----
+# Asset Ownership
 
+# Tokenomics
 
+How do you get coin?
 
-How do you get coin?What do you spend coin on?When are new coins minted?Under what circumstances are coins burned?
-NetworksValidator NetworkFabrication NetworkGovernance Network
+What do you spend coin on?
+
+When are new coins minted?
+
+Under what circumstances are coins burned?
+
+# Networks
+
+Validator Network
+
+Fabrication Network
+
+Governance Network
 
 
 §1 PRIMARY NETWORK SYSTEMS§1.1 Purchase Order System
