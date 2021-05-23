@@ -1,45 +1,66 @@
 <img align="center" src="./assets/banner.png"/>
 
-`Whitepaper V.1.0`
-
-<u>Table Of Contents</u>
-
-[TOC]
+```
+Document: Celltonomy Whitepaper
+Version: 1.0
+Document Source: https://github.com/celltonomy/white_paper
+Project Code: https://github.com/celltonomy
+```
 
 # Abstract
 
-Celltonomy is 
+Celltonomy is a public decentralized network designed to make the following capabilities widely available and accessible:
 
-Celltonomy is a combination of a cloud-biolab and an open source package repository. Celltonomy is also a decentralized system designed to be owned and operated by a global community of Celltonomy users and supporters
+1. Grow biological systems
+2. Perform bioscience R&D
+3. Move bio-systems and derived biologics to prefered destinations
+4. Transact bio-systems, derived biologics, and 
+
+Celltonomy is a combination of a cloud-biolab and an open source package repository. 
+
+Celltonomy is also a decentralized system designed to be owned and operated by a global community of Celltonomy users and supporters
+
+# Core Elements
+
+## Networks
+
+1. Validator Network
+2. Fulfillment Network
+3. Governance Network
+
+## Reputation
+
+A variety of metrics may be considered when computing Reputation. This is likely to be an area of significant iteration.
+
+### For Buyers
+
+* Number of purchases
+* Purchase value
+*  
+
+### For Fulfillment Providers
+
+
+
+## Event Log
 
 # What gets written to chain?
 
-# Primary Systems
-
 # Reputation Metric
 
-# Asset Ownership
-
-# Tokenomics
-
-How do you get coin?
-
-What do you spend coin on?
-
-When are new coins minted?
-
-Under what circumstances are coins burned?
+## How is it calculated?
 
 # Networks
 
-Validator Network
+## Validator Network
 
-Fabrication Network
+## Fabrication Network
 
-Governance Network
+## Governance Network
 
+# Primary Network Systems
 
-§1 PRIMARY NETWORK SYSTEMS§1.1 Purchase Order System
+Purchase Order System
 ![img](IJHPruFefKpf9i8Gp5Kj7OqVACAaglMca19kOEzSdyjH-GZbg_WXIZVfX9JF-eFmYc2x0jQSMhdYCJNKSRGjWUUOGtXtya7MCJJ5pPy5KQneP-twAbE76Q5Dn_p_QRoXTP5rClkJ.png)
 §1.2 Dispute Settlement SystemClaim"I received the wrong item”QuestionsIs the shipping label correct?How do I verify this?Is it addressed to me?
 Was the fabrication protocol executed to spec?How can we know?Event Log: Have every bot / bot pool record which instructions they’re executingPotential CausesThe “I did not receive the item”QuestionsWas it delivered?Was it stolen?Potential Causes
@@ -63,6 +84,16 @@ Resolution OutcomesRefundRedo the orderRedo the order with different fulfillment
 §1.6 GovernanceHow Compound does it: https://medium.com/compound-finance/compound-governance-5531f524cf68
 §1.7 Treasury
 
+# Tokenomics
 
+## How do you get coin?
 
-§2. RED TEAM EXPLOITS
+## What do you spend coin on?
+
+## When are new coins minted?
+
+## Under what circumstances are coins burned?
+
+# Red Team Exploits
+
+In this section we attempt to enumerate the variety of ways bad actors might attempt to exploit the network as well as identify and address common exploit concerns raised by people new to Celltonomy.
