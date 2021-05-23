@@ -7,6 +7,26 @@ Document Source: https://github.com/celltonomy/white_paper
 Project Code: https://github.com/celltonomy
 ```
 
+**Table of Contents**
+
+[Abstract][]
+
+[Mining][]
+
+[Component Networks][]
+
+[Reputation][]
+
+[Event Log][]
+
+[Primary Network Systems][]
+
+[What gets written to chain?][]
+
+[Tokenomics][]
+
+[Red Team Exploits][]
+
 # Abstract
 
 Celltonomy is a public decentralized network designed to make the following capabilities widely available and accessible:
@@ -18,54 +38,98 @@ Celltonomy is a public decentralized network designed to make the following capa
 
 Celltonomy is a combination of a cloud-biolab (however, decentralized) and an open source package repository. Packages in Celltonomy are protocols for fabricating and processing biological systems.
 
+By combining the cloud-biolab functionality with a (protocol) package repository, Celltonomy is designed to be a unified system able to produce any biological system.
+
 Celltonomy is designed to be owned and operated by a global community of Celltonomy users and supporters.
 
-# Core Elements
 
-## Networks
+
+# Mining
+
+Run bots, earn network rewards as well as revenue from fullfilling orders.
+
+# Component Networks
 
 1. Validator Network
 2. Fulfillment Network
 3. Governance Network
 
-## Reputation
+
+
+# Reputation
 
 A variety of metrics may be considered when computing Reputation. This is likely to be an area of significant iteration.
 
-### For Buyers
+## For Buyers
 
 * Number of purchases
 * Purchase value
 *  
 
-### For Fulfillment Providers
+## For Fulfillment Providers
 
 
 
-## Event Log
-
-# What gets written to chain?
-
-# Reputation Metric
-
-## How is it calculated?
-
-# Networks
-
-## Validator Network
-
-## Fabrication Network
-
-## Governance Network
+# Event Log
 
 # Primary Network Systems
 
-Purchase Order System
-![img](IJHPruFefKpf9i8Gp5Kj7OqVACAaglMca19kOEzSdyjH-GZbg_WXIZVfX9JF-eFmYc2x0jQSMhdYCJNKSRGjWUUOGtXtya7MCJJ5pPy5KQneP-twAbE76Q5Dn_p_QRoXTP5rClkJ.png)
-§1.2 Dispute Settlement SystemClaim"I received the wrong item”QuestionsIs the shipping label correct?How do I verify this?Is it addressed to me?
-Was the fabrication protocol executed to spec?How can we know?Event Log: Have every bot / bot pool record which instructions they’re executingPotential CausesThe “I did not receive the item”QuestionsWas it delivered?Was it stolen?Potential Causes
-“The protocol wasn’t executed to spec”QuestionsPotential Causes
-“The order is taking too long / longer than spec’ed”Questions• Is this due to delay with fabrication, shipping carrier, customs, or some other factor?Potential Causes
+## Purchase Order System
+
+<img src='./assets/diagrams/purchase_order_system/purchase_order_system.png'/>
+
+
+
+## Dispute Settlement System
+
+### Claim: "I received the wrong item”
+
+#### Questions
+
+1. Is the shipping label correct?
+
+   * How do I verify this?
+
+   * Is it addressed to me?
+
+     
+
+2. Was the fabrication protocol executed to spec?
+
+   * How can we know?
+   * Event Log: Have every bot / bot pool record which instructions they’re executing
+
+#### Potential Causes
+
+
+
+### Claim: “I did not receive the item”
+
+#### Questions
+
+* Was it delivered?
+
+* Was it stolen?
+
+#### Potential Causes
+
+
+
+### Claim: “The protocol wasn’t executed to spec”
+
+#### Questions
+
+#### Potential Causes
+
+
+
+#### Claim “The order is taking too long / longer than spec’ed”
+
+Questions
+
+* Is this due to delay with fabrication, shipping carrier, customs, or some other factor?
+
+Potential Causes
 ScenariosThe Protocol Was Executed To Spec
 The Protocol Was Not Executed To SpecClaimed by end-userHow is this validated?What if every step of every protocol was written to (side) chain?
 Research QuestionsWhat about items which have lifetime specs? E.g. you receive receipt up front, but the thing is supposed to last for x period of time, and then doesn't / lasts for x-y period of time.
@@ -79,10 +143,13 @@ Resolution OutcomesRefundRedo the orderRedo the order with different fulfillment
 ![img](3TM3Xthpct2eYRBM37vbJ1Go1DAjw0yAITbwd0QKIobKwBHwXzN1bLeecKZcX--2wfEJf-7Ef9TRW4ldtd_DhhAWdRatPaf51cE4dtWnCVwu5q4jxqQFYNaq9gfqhe-Jf7k_SBcF.png)
 ![img](BID_aeF_WzF2Olcjx2QgPvouRhQ_XKMfzlR6QATATg6o6wNYTsCC-TA9iq_wDDF8nhztoyoNC0Wz3gjigx-5aWwVYUTSQBCNMh0qvIjeUGo5QkgfIA0G8u618hd_GAxDhUvrig-M.png)
 
-
 ![img](8XWOxARPPCEkuaqmkp8fj35Wycy9TBoXpUjNDQ_vXTAKetUj0M5wpQXRsU1T1ks1h9_rVRMzxGirYXdT8KHc52f9Fw4LAfnzzv8aD0MlAw4BgCxp9Rrkv9DUlp48QVbhKHVJSrtP.png)
 §1.6 GovernanceHow Compound does it: https://medium.com/compound-finance/compound-governance-5531f524cf68
 §1.7 Treasury
+
+# What gets written to chain?
+
+
 
 # Tokenomics
 
