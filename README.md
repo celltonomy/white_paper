@@ -1,6 +1,10 @@
-![img](celltonomy_logo.png)
+<img align="center" height="200" src="./assets/logo/celltonomy_logo.png"/>
+
+# <!-- font: syncopate -->
 
 # Celltonomy
+
+<!-- font: arial -->
 
 ## Your Decentralized Biofabrication Network
 
