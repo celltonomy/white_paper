@@ -9,7 +9,7 @@ Project Code: https://github.com/celltonomy
 
 **Table of Contents**
 
-[Abstract][]
+[Abstract](#abstract)
 
 [Mining][]
 
