@@ -5,6 +5,7 @@ Document: Celltonomy Whitepaper
 Version: 1.0
 Document Source: https://github.com/celltonomy/white_paper
 Project Code: https://github.com/celltonomy
+Website: https://celltonomy.com
 ```
 
 **Table of Contents**
@@ -42,6 +43,12 @@ By combining the cloud-biolab functionality with a (protocol) package repository
 
 Celltonomy is designed to be owned and operated by a global community of Celltonomy users and supporters.
 
+# Package System
+
+
+
+# Fabrication Network
+
 
 
 # Mining
@@ -54,37 +61,31 @@ Run bots, earn network rewards as well as revenue from fullfilling orders.
 2. Fulfillment Network
 3. Governance Network
 
-# Reputation
 
-A variety of metrics may be considered when computing Reputation. This is likely to be an area of significant iteration.
 
-## For Buyers
+# Purchase Order System
 
-* Number of purchases
-* Purchase value
-*  
+## No-Bid Direct Purchase
 
-## For Fulfillment Providers
+* Check Catalog
 
 
 
-# Event Log
-
-# Primary Network Systems
-
-## Purchase Order System
+## Purchase Order Fulfillment Bidding
 
 <img src='./assets/diagrams/purchase_order_system/purchase_order_system.png'/>
 
-
-
-## Dispute Settlement System
+# Dispute Settlement System
 
 The Dispute Settlement System is likely to evolve significantly over time.
 
-For TestNet development we can focus our current efforts on defining the scope of [potential resolution outcomes](#potential-resolution-outcomes), and identifying expected [dispute scenarios](#dispute-scenarios) and [research questions](#research-questions) for particularly complex dispute scenarios.
+For TestNet development we can focus our current efforts on the following:
 
-### Potential Resolutions Outcomes
+1. Defining the scope of [potential resolution outcomes](#potential-resolution-outcomes), 
+2. Identifying expected [dispute scenarios](#dispute-scenarios) 
+3. Identifying [research questions](#research-questions)
+
+## Potential Resolutions Outcomes
 
 1. Refund
 2. Redo the order
@@ -92,11 +93,11 @@ For TestNet development we can focus our current efforts on defining the scope o
 4. ‘Store credit’
 5. Litigation
 
-### Dispute Scenarios
+## Dispute Scenarios
 
-#### <u>"I received the wrong item”</u>
+### <u>"I received the wrong item”</u>
 
-##### Questions
+#### Questions
 
 1. Is the shipping label correct?
 
@@ -111,59 +112,59 @@ For TestNet development we can focus our current efforts on defining the scope o
    * How can we know?
    * Event Log: Have every bot / bot pool record which instructions they’re executing
 
-##### Potential Causes
+#### Potential Causes
 
 
 
-##### Resolution
+#### Resolution
 
 
 
-#### <u>“I did not receive the item”</u>
+### <u>“I did not receive the item”</u>
 
-##### Questions
+#### Questions
 
 * Was it delivered?
 
 * Was it stolen?
 
-##### Potential Causes
+#### Potential Causes
 
 
 
-##### Resolution
+#### Resolution
 
 
 
-#### <u>“The protocol was not executed to spec”</u>
+### <u>“The protocol was not executed to spec”</u>
 
-##### Questions
+#### Questions
 
 * How is this validated?
 
-##### Potential Causes
+#### Potential Causes
 
 
 
-##### Resolution
+#### Resolution
 
 
 
-#### <u>“The order is taking too long / longer than spec’ed”</u>
+### <u>“The order is taking too long / longer than spec’ed”</u>
 
-##### Questions
+#### Questions
 
 * Is this due to delay with fabrication, shipping carrier, customs, or some other factor?
 
-##### Potential Causes
+#### Potential Causes
 
 
 
-##### Resolution
+#### Resolution
 
 
 
-### Research Questions
+## Research Questions
 
 1. What about items which have ‘lifetime' specs? 
 
@@ -177,23 +178,67 @@ For TestNet development we can focus our current efforts on defining the scope o
 
 
 
-## Performance Audit System
+# Performance Audit System
 
 
 
-## Entity Registration System
+# Entity Registration System
 
 
 
-## Upgrade System
+# Upgrade System
+
+### 1
+
+<img src='./assets/diagrams/upgrade_system/1.png'/>
 
 
 
-## Governance
+### 2<img src='./assets/diagrams/upgrade_system/2.png'/>
+
+
+
+### 3<img src='./assets/diagrams/upgrade_system/3.png'/>
+
+
+
+### 4<img src='./assets/diagrams/upgrade_system/4.png'/>
+
+
+
+### 5<img src='./assets/diagrams/upgrade_system/5.png'/>
+
+
+
+### 6<img src='./assets/diagrams/upgrade_system/6.png'/>
+
+
+
+# Governance
 
 How Compound does it: https://medium.com/compound-finance/compound-governance-5531f524cf68
 
-## Treasury
+
+
+# Treasury
+
+# Reputation
+
+A variety of metrics may be considered when computing Reputation. This is likely to be an area of significant iteration.
+
+## For Buyers
+
+* Number of purchases
+* Purchase value
+* 
+
+## For Fulfillment Providers
+
+
+
+# Event Log
+
+
 
 # What gets written to chain?
 
@@ -212,3 +257,9 @@ How Compound does it: https://medium.com/compound-finance/compound-governance-55
 # Red Team Exploits
 
 In this section we attempt to enumerate the variety of ways bad actors might attempt to exploit the network as well as identify and address common exploit concerns raised by people new to Celltonomy.
+
+## Fake Orders
+
+## Fake Fulfillment
+
+## Fake Shipping
