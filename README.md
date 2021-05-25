@@ -28,6 +28,14 @@ Website: https://celltonomy.com
 
 [Red Team Exploits](#red-team-exploits)
 
+
+
+# Overview
+
+**What is Celltonomy?**
+
+Celltonomy is infrastructure for growing biological systems.
+
 # Abstract
 
 Celltonomy is a public decentralized network designed to make the following capabilities widely available and accessible:
@@ -45,9 +53,21 @@ Celltonomy is designed to be owned and operated by a global community of Cellton
 
 # Package System
 
+Packages are Protocols.
+
+<img src='./assets/diagrams/upgrade_system/1.png'/>
+
 
 
 # Fabrication Network
+
+# BotSpec
+
+## Upgradable Fabrication Capability
+
+
+
+
 
 
 
@@ -63,7 +83,83 @@ Run bots, earn network rewards as well as revenue from fullfilling orders.
 
 
 
-# Purchase Order System
+---
+
+CRO
+
+Alison
+
+- mesoderm 
+- $102 stem cell kit
+- $125 immofluorescen
+
+UCB Berker Hall
+
+​	Corner of Hearst Ave and Oxford
+
+THURSDAY ; 
+
+call when you get to front door and Alison 
+
+Has to leave before 3 or 4
+
+# Glossary
+
+`Account`
+
+`Reputation Profile`
+
+`Spec` :
+
+`Catalog Item` : A specific 
+
+`Implementation Protocol (IP)`: Specific process / machine instruction for fabricating a target good (or service?)
+
+`Package` : Bundle of an IP + a Spec for that IP
+
+`Service Offering` : Catalog Item + Spec
+
+
+
+`Validator Network` :
+
+`Purchase Order` :
+
+`Purchase Order (PO) Stake`
+
+`Fulfillment Bid`
+
+`Fulfillment Bid (FB) Stake`:
+
+`Fulfillment Contract`
+
+
+
+# Joining The Network
+
+## Vendor
+
+Create a `Profile`.
+
+Register `Service Offerings`.
+
+Profile
+
+## Buyer
+
+Create a Profile
+
+## Validator
+
+Celltonomy is a Proof-of-Stake network. Validators may join the network by staking an appropriate amount of network token. The specific amount of network token required to be staked to be a validator 
+
+## Govenor
+
+Governance network
+
+# 
+
+## Purchase Order System
 
 ## No-Bid Direct Purchase
 
@@ -73,7 +169,76 @@ Run bots, earn network rewards as well as revenue from fullfilling orders.
 
 ## Purchase Order Fulfillment Bidding
 
+### 1. Purchase Order Is Submitted
+
+The `Buyer` sends a `Purchase Order`to the `Order Book` maintained by the `Validator Network`, and a `Purchase Order Stake` to the `Stake Manager` contract.
+
+### <img src="./assets/diagrams/purchase_order_system/1.png"/>
+
+#### Questions
+
+* How much does the `Purchase Order Stake` need to be? 
+
+  * How do we determine this value requirement before `Fulfillment Bids` are submitted?
+
+    * Could base it on historic pricing for  
+
+      
+
+
+
+### 2. Fulfillment Bids Are Taken
+
+Each `Fulfillment Provider` that is submitting a `Fulfillment Bid` sends a `Bid Stake` to the `Stake Manager` contract.
+
+<img src='./assets/diagrams/purchase_order_system/2-alt.png'/>
+
+
+
+### 3. Fulfillment Contract Is Awarded
+
+<img src="./assets/diagrams/purchase_order_system/3-alt.png"/>
+
+### 4. Payment And Fees Are Paid
+
+[ IMAGE ]
+
+#### Research Questions
+
+* Should we hold the payment in escrow, or offer this as an option?
+* Can variably priced contracts (e.g. hourly, adjusted based on costs, ...) be awarded, or just fixed-priced purchases?
+
+
+
+### 5. Work Is Performed
+
+
+
+### 6. Finished Asset And Work Completion Confirmation Code Are Shipped To Buyer
+
+
+
+### 7a. If Work Is Completed To Satisfaction, Buyer Closes Transaction
+
+Purchase Order Stake is returned to buyer
+
+Fulfillment Bid Stake is returned to fulfillment provider.
+
+
+
+### 7b. If Work Is Not Completed To Satisfaction, Buyer Does NOT Close Transaction, And Begins The Dispute Settlement Process
+
+
+
+
+
+
+
+
+
 <img src='./assets/diagrams/purchase_order_system/purchase_order_system.png'/>
+
+
 
 # Dispute Settlement System
 
@@ -191,8 +356,6 @@ For TestNet development we can focus our current efforts on the following:
 ### 1
 
 <img src='./assets/diagrams/upgrade_system/1.png'/>
-
-
 
 ### 2<img src='./assets/diagrams/upgrade_system/2.png'/>
 
