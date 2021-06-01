@@ -83,25 +83,7 @@ Run bots, earn network rewards as well as revenue from fullfilling orders.
 
 
 
----
 
-CRO
-
-Alison
-
-- mesoderm 
-- $102 stem cell kit
-- $125 immofluorescen
-
-UCB Berker Hall
-
-​	Corner of Hearst Ave and Oxford
-
-THURSDAY ; 
-
-call when you get to front door and Alison 
-
-Has to leave before 3 or 4
 
 # Glossary
 
